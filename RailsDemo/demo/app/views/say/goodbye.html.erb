@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title> See you later </title>
+	</head>
+	<body>
+		<h1> Goodbye! </h1>
+		<p>
+			It is nice having you here.
+		</p>
+		<p>
+			Say <%= link_to "Hello SB", :action => "hello" %> again.
+		</p>
+		<p>
+			<% for file in @files%>
+				<ul> file name is: <%= file %> </ul>
+			<% end %>
+		</p>
+	</body>
+</html>
+
+<ul>
+	<li> Addition: <%= 1 + 2 %> </li>
+	<li> Concatenation: <%= 'cow' + 'boy' %> </li>
+	<li> Time in one hour: <%= 1.hour.from_now %> </li>
+</ul>
+	
