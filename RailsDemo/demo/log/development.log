@@ -301,3 +301,23 @@ Completed in 1ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/say/hello]
 Processing SayController#goodbye (for 127.0.0.1 at 2014-02-25 10:50:12) [GET]
 Rendering say/goodbye
 Completed in 4ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2014-02-27 17:31:57) [GET]
+Rendering say/hello
+Completed in 159ms (View: 159, DB: 0) | 200 OK [http://127.0.0.1/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2014-02-27 17:32:14) [GET]
+Rendering say/hello
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2014-02-27 17:32:19) [GET]
+Rendering say/goodbye
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://127.0.0.1/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2014-02-27 17:32:22) [GET]
+Rendering say/hello
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/say/hello]
